@@ -44,7 +44,7 @@ const Register = () => {
     console.log("Sending payload:", payload);  // Check the payload being sent
 
     try {
-      const response = await axios.post("https://dummy-deploy2.vercel.app/api/users/register", payload);
+      const response = await axios.post("https://casino-backend-beta.vercel.app/api/users/register", payload);
 
       // Log backend response for debugging
       console.log("Backend Response:", response.data);
